@@ -10,23 +10,23 @@ public class Service {
         rodent.eatGrain();
     }
 
-    public static Rodent createRandomRodent() {
+    public static Rodent createRandomRodent(Nut nut) {
         int k = rnd.nextInt(COUNT_OF_RODENTS);
         switch (k) {
             case 0: {
-                return new Chipmunk();
+                return new Chipmunk(nut);
             }
             case 1: {
-                return new Hamster();
+                return new Hamster(nut);
             }
             case 2: {
-                return new Meerkat();
+                return new Meerkat(nut);
             }
             case 3: {
-                return new Mouse();
+                return new Mouse(nut);
             }
             case 4: {
-                return new Squirrel();
+                return new Squirrel(nut);
             }
             default: {
                 return null;
