@@ -2,6 +2,7 @@ package polymorphism.rodent;
 
 public class Rodent {
     private Nut nut;
+
     public Rodent(Nut nut) {
         this.nut = nut;
         this.nut.addRef();
@@ -24,7 +25,7 @@ public class Rodent {
 
     @Override
     protected void finalize() throws Throwable {
-        System.out.println(toString()+" finalize");
+        System.out.println(toString() + " finalize");
         super.finalize();
     }
 }

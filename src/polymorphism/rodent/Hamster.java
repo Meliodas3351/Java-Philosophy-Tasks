@@ -1,6 +1,8 @@
 package polymorphism.rodent;
 
 public class Hamster extends Rodent {
+    //private Hamster hamster = new Hamster();
+    //private  Meerkat meerkat = new Meerkat();\
 
     public Hamster(Nut nut) {
         super(nut);
