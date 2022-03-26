@@ -6,5 +6,10 @@ public class Main {
         Service.ride(new Unicycle());
         Service.ride(new Bicycle());
         Service.ride(new Tricycle());
+
+        Cycle[] cycles = new Cycle[]{new Unicycle(),new Bicycle(),new Tricycle()};
+        ((Unicycle)cycles[0]).balance();
+        ((Bicycle)cycles[1]).balance();
+        ((Tricycle)cycles[2]).balance();
     }
 }

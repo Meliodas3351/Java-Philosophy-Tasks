@@ -10,4 +10,8 @@ public class Tricycle extends Cycle {
         System.out.println("Tricycle ride()");
         wheels();
     }
+
+    public void balance(){
+        System.out.println(toString()+" balance()");
+    }
 }
