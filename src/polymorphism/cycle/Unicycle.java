@@ -11,7 +11,7 @@ public class Unicycle extends Cycle {
         wheels();
     }
 
-    public void balance(){
-        System.out.println(toString()+" balance()");
+    public void balance() {
+        System.out.println(toString() + " balance()");
     }
 }

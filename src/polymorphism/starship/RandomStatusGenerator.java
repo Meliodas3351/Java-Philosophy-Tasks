@@ -2,7 +2,7 @@ package polymorphism.starship;
 
 import java.util.Random;
 
-public class RandomStatusCreator {
+public class RandomStatusGenerator {
     private static final Random random = new Random();
     private static final int COUNT_OF_STATUSES = 3;
 

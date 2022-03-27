@@ -2,11 +2,11 @@ package polymorphism.musicalInstruments;
 
 public class Instrument {
     public void play(Note note) {
-        System.out.println(toString() + " play " + note);
+        System.out.println(this + " play " + note);
     }
 
     public void adjust() {
-        System.out.println("Adjusting " + toString());
+        System.out.println("Adjusting " + this);
     }
 
     @Override

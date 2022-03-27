@@ -1,10 +1,10 @@
 package polymorphism.starship;
 
 public class Starship {
-    private AlertStatus alertStatus = RandomStatusCreator.createRandomStatus();
+    private AlertStatus alertStatus = RandomStatusGenerator.createRandomStatus();
 
-    public void changeStatus(){
-        alertStatus = RandomStatusCreator.createRandomStatus();
+    public void changeStatus() {
+        alertStatus = RandomStatusGenerator.createRandomStatus();
         alertStatus.printStatus();
     }
 }

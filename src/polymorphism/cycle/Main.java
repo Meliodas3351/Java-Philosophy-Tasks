@@ -7,9 +7,13 @@ public class Main {
         Service.ride(new Bicycle());
         Service.ride(new Tricycle());
 
-        Cycle[] cycles = new Cycle[]{new Unicycle(),new Bicycle(),new Tricycle()};
-        ((Unicycle)cycles[0]).balance();
-        ((Bicycle)cycles[1]).balance();
-        ((Tricycle)cycles[2]).balance();
+        Unicycle unicycle = new Unicycle();
+        Bicycle bicycle = new Bicycle();
+        Tricycle tricycle = new Tricycle();
+
+        Cycle[] cycles = new Cycle[]{unicycle, bicycle, tricycle};
+        ((Unicycle) cycles[0]).balance();
+        ((Bicycle) cycles[1]).balance();
+        ((Tricycle) cycles[2]).balance();
     }
 }
