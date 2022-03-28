@@ -2,7 +2,7 @@ package polymorphism.cycle;
 
 public class Unicycle extends Cycle {
     Unicycle() {
-        setCountOfWheels(1);
+        countOfWheels = 1;
     }
 
     @Override
@@ -12,6 +12,6 @@ public class Unicycle extends Cycle {
     }
 
     public void balance() {
-        System.out.println(toString() + " balance()");
+        System.out.println(this + " balance()");
     }
 }

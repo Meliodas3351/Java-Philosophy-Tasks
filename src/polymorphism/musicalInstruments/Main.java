@@ -7,7 +7,7 @@ public class Main {
             instrument = Service.createRandomInstrument();
             Service.adjustInstrument(instrument);
             Service.playInstrument(instrument, Service.createRandomNote());
-            System.out.println(instrument.toString());
+            System.out.println(instrument);
             System.out.println();
         }
     }

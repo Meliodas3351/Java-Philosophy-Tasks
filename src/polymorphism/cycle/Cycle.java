@@ -1,10 +1,10 @@
 package polymorphism.cycle;
 
 public class Cycle {
-    private static int countOfWheels;
+    protected static int countOfWheels = 0;
 
     Cycle() {
-        setCountOfWheels(0);
+
     }
 
     public void ride() {

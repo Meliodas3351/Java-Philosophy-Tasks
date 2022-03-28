@@ -8,6 +8,6 @@ public class Brass extends Wind {
 
     @Override
     public void play(Note note) {
-        System.out.println(toString() + " play " + note);
+        System.out.println(this + " play " + note);
     }
 }

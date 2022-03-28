@@ -28,7 +28,7 @@ public class Shared {
 
     @Override
     protected void finalize() throws Throwable {
-        System.out.println(toString() + " finalize");
+        System.out.println(this + " finalize");
         super.finalize();
     }
 }

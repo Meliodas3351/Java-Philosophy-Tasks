@@ -1,8 +1,10 @@
 package polymorphism.cycle;
 
 public class Bicycle extends Cycle {
+
+
     Bicycle() {
-        setCountOfWheels(2);
+        countOfWheels = 2;
     }
 
     @Override
@@ -12,6 +14,6 @@ public class Bicycle extends Cycle {
     }
 
     public void balance() {
-        System.out.println(toString() + " balance()");
+        System.out.println(this + " balance()");
     }
 }

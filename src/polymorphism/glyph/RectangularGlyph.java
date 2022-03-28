@@ -12,6 +12,6 @@ public class RectangularGlyph extends Glyph {
 
     @Override
     public void draw() {
-        System.out.println("RectangularGlyph draw(); height - " + this.height + ", width - " + width);
+        System.out.println("RectangularGlyph draw(); height - " + this.height + ", width - " + this.width);
     }
 }

@@ -9,7 +9,7 @@ public class Composing {
     public Composing(Shared shared) {
         this.shared = shared;
         this.shared.addRef();
-        System.out.println("Create " + toString());
+        System.out.println("Create " + this);
     }
 
     public void addRef() {
@@ -24,7 +24,7 @@ public class Composing {
 
     @Override
     protected void finalize() throws Throwable {
-        System.out.println(toString() + " finalize");
+        System.out.println(this + " finalize");
         super.finalize();
     }
 

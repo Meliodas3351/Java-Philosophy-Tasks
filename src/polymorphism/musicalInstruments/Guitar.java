@@ -8,11 +8,11 @@ public class Guitar extends Instrument {
 
     @Override
     public void play(Note note) {
-        System.out.println(toString() + " play " + note);
+        System.out.println(this + " play " + note);
     }
 
     @Override
     public void adjust() {
-        System.out.println("Adjusting " + toString());
+        System.out.println("Adjusting " + this);
     }
 }
