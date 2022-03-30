@@ -14,7 +14,8 @@ public abstract class Rodent {
         return "Rodent";
     }
 
-    public abstract void  eatGrain();
+    public abstract void eatGrain();
+
     public void dispose() throws Throwable {
         this.nut.dispose();
         this.finalize();
