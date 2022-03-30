@@ -14,9 +14,4 @@ public class Squirrel implements Rodent {
     public void eatGrain() {
         System.out.println(this + "eats Grain");
     }
-
-    @Override
-    public void dispose() {
-
-    }
 }

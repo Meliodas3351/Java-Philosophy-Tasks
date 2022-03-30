@@ -10,9 +10,5 @@ public class Main {
             Service.eatGrain(rodent);
             System.out.println();
         }
-        for (Rodent rodent : rodents) {
-            rodent.dispose();
-        }
-
     }
 }

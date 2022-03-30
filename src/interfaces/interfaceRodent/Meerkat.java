@@ -14,9 +14,4 @@ public class Meerkat implements Rodent {
     public void eatGrain() {
         System.out.println(this + "eats Grain");
     }
-
-    @Override
-    public void dispose() {
-
-    }
 }
