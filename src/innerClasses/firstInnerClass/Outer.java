@@ -3,6 +3,11 @@ package innerClasses.firstInnerClass;
 public class Outer {
     private String myStr;
 
+    @Override
+    public String toString() {
+        return myStr;
+    }
+
     public Outer(String myStr) {
         this.myStr = myStr;
     }
@@ -21,6 +26,10 @@ public class Outer {
         @Override
         public String toString() {
             return myStr;
+        }
+
+        public Outer createOuter() {
+            return Outer.this;
         }
     }
 

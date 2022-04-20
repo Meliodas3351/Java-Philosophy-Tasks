@@ -6,5 +6,7 @@ public class Main {
         Outer.Inner inner = outer.createInnerClassObject(10);
         System.out.println(inner.getI());
         System.out.println(inner.toString());
+        Outer outer1 = inner.createOuter();
+        System.out.println(outer1.toString());
     }
 }
